@@ -111,6 +111,7 @@ call s:highlight('iCursor', s:clear, s:Grey0, s:none)
 call s:highlight('LineNr', s:Grey66, s:clear, s:none)
 call s:highlight('NonText', s:Grey66, s:clear, s:none)
 call s:highlight('CursorLineNr', s:Grey0, s:Grey7, s:none)
+call s:highlight('VertSplit', s:Grey7, s:clear, s:none)
 
 
 " Git Gutter
