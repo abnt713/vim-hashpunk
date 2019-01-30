@@ -100,18 +100,18 @@ call s:highlight('Todo', s:RadicalRed1, s:clear, s:none)
 call s:highlight('Directory', s:RadicalRed1, s:clear, s:bold)
 call s:highlight('CursorLine', s:Grey93, s:clear, s:bold)
 call s:highlight('MatchParen', s:Grey0, s:RadicalRed1, s:none)
-call s:highlight('ColorColumn', s:RadicalRed1, s:Grey7, s:none)
+call s:highlight('ColorColumn', s:RadicalRed1, s:Grey15, s:none)
 
 
 " Interface highlighting
-call s:highlight('Normal', s:clear, s:Grey15, s:none)
+call s:highlight('Normal', s:Grey93, s:Grey7, s:none)
 call s:highlight('Visual', s:clear, s:Grey0, s:none)
 call s:highlight('Cursor', s:clear, s:Grey0, s:none)
 call s:highlight('iCursor', s:clear, s:Grey0, s:none)
 call s:highlight('LineNr', s:Grey66, s:clear, s:none)
 call s:highlight('NonText', s:Grey66, s:clear, s:none)
 call s:highlight('CursorLineNr', s:Grey0, s:Grey7, s:none)
-call s:highlight('VertSplit', s:Grey7, s:clear, s:none)
+call s:highlight('VertSplit', s:Grey15, s:clear, s:none)
 
 
 " Git Gutter
@@ -123,12 +123,12 @@ call s:highlight('SignColumn', s:Grey93, s:clear, s:none)
 
 
 " Java syntax highlighting
-call s:highlight('javaParen', s:DarkMagenta, s:clear, s:none)
-call s:highlight('javaCommentTitle', s:DeepSkyBlue3, s:clear, s:none)
-call s:highlight('javaDocParam', s:DeepSkyBlue3, s:clear, s:none)
-call s:highlight('javaDocTags', s:DeepSkyBlue3, s:clear, s:none)
-call s:highlight('javaScopeDecl', s:Grey66, s:clear, s:none)
-call s:highlight('javaStorageClass', s:MediumOrchid1, s:clear, s:none)
+call s:highlight('javaParen', s:RadicalRed1, s:clear, s:none)
+call s:highlight('javaCommentTitle', s:Grey42, s:clear, s:none)
+call s:highlight('javaDocParam', s:RadicalRed1, s:clear, s:none)
+call s:highlight('javaDocTags', s:Grey54, s:clear, s:none)
+call s:highlight('javaScopeDecl', s:Grey54, s:clear, s:none)
+call s:highlight('javaStorageClass', s:RadicalRed1, s:clear, s:none)
 
 
 " Python syntax highlighting
