@@ -115,11 +115,11 @@ call s:highlight('VertSplit', s:Grey7, s:clear, s:none)
 
 
 " Git Gutter
-call s:highlight('GitGutterAdd', s:Grey93, s:Grey7, s:none)
-call s:highlight('GitGutterChange', s:Grey93, s:Grey7, s:none)
-call s:highlight('GitGutterDelete', s:Grey93, s:Grey7, s:none)
-call s:highlight('GitGutterChangeDelete', s:Grey93, s:Grey7, s:none)
-call s:highlight('SignColumn', s:Grey93, s:Grey7, s:none)
+call s:highlight('GitGutterAdd', s:Grey93, s:clear, s:none)
+call s:highlight('GitGutterChange', s:Grey93, s:clear, s:none)
+call s:highlight('GitGutterDelete', s:Grey93, s:clear, s:none)
+call s:highlight('GitGutterChangeDelete', s:Grey93, s:clear, s:none)
+call s:highlight('SignColumn', s:Grey93, s:clear, s:none)
 
 
 " Java syntax highlighting
