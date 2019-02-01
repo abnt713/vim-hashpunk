@@ -97,8 +97,8 @@ call s:highlight('Underlined', s:Grey54, s:clear, s:underline)
 call s:highlight('Error', s:RadicalRed1, s:clear, s:underline)
 call s:highlight('Todo', s:RadicalRed1, s:clear, s:none)
 
-call s:highlight('Directory', s:RadicalRed1, s:clear, s:bold)
-call s:highlight('CursorLine', s:Grey93, s:clear, s:bold)
+call s:highlight('Directory', s:Grey93, s:clear, s:bold)
+call s:highlight('CursorLine', s:RadicalRed1, s:clear, s:bold)
 call s:highlight('MatchParen', s:Grey0, s:RadicalRed1, s:none)
 call s:highlight('ColorColumn', s:RadicalRed1, s:Grey15, s:none)
 
@@ -139,6 +139,10 @@ call s:highlight('pythonBuiltin', s:Grey54, s:clear, s:italic)
 " Vimscript syntax highlighting
 call s:highlight('vimOption', s:Grey93, s:clear, s:none)
 
+
+" NERDTree
+call s:highlight('NERDTreeClosable', s:RadicalRed1, s:clear, s:none)
+call s:highlight('NERDTreeOpenable', s:RadicalRed1, s:clear, s:none)
 
 " *NOTE*
 "
