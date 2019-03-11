@@ -131,6 +131,13 @@ call s:highlight('GitGutterDelete', s:Grey93, s:clear, s:none)
 call s:highlight('GitGutterChangeDelete', s:Grey93, s:clear, s:none)
 call s:highlight('SignColumn', s:Grey93, s:clear, s:none)
 
+" CPP
+call s:highlight('cppStructure', s:MainColor, s:clear, s:none)
+call s:highlight('cppStatement', s:MainColor, s:clear, s:none)
+call s:highlight('cType', s:MainColor, s:clear, s:none)
+call s:highlight('cRepeat', s:MainColor, s:clear, s:none)
+call s:highlight('cppSTLtype', s:MainColor, s:clear, s:none)
+
 
 " Java syntax highlighting
 call s:highlight('javaParen', s:MainColor, s:clear, s:none)
